@@ -1,0 +1,93 @@
+/* LAYOUT SECTION - EDIT THESE TO ADJUST LAYOUT */
+#nav {
+	position:relative;
+	z-index:4;
+	line-height:18px;
+}
+
+/* MAIN NAVIGATION */
+#nav {
+	margin-top: 8px;
+	font-size: 13px;	
+	background: transparent url('img/navbar_bg.jpg') repeat-x 0px -1px;
+	height: 38px;
+	width: 980px;
+	margin-bottom: 16px;
+	float: left;
+	-moz-border-radius: 5px;
+}
+
+#nav ul{
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding: 0px;
+	width: 770px;
+	float: left;
+}
+
+#nav ul li{
+	font-weight: bold;
+	margin:0;
+	padding: 0px;
+	float: left;
+	background: url('img/navdivider.png') no-repeat right top;
+}
+
+#wrapper #nav ul.dropdown li a.home, #wrapper #nav ul.dropdown li a.home:hover{
+		background-color: transparent;
+		background-position:  21px 5px;
+		background-repeat: no-repeat;
+		text-indent: -300em;
+		width: 25px;
+		border-left: none;	
+		position:relative;
+		z-index: 10;
+		padding: 9px 22px 9px 20px;	
+}
+	
+#nav ul.dropdown li a.home:hover, #nav ul li a.home:active{
+	cursor: pointer;
+	margin:0;
+	border:none;
+}
+
+#nav ul li a{
+	width: 79px;
+	padding: 9px 17px 9px 15px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: #DDDDDD 0px 1px 0px;
+	color: #000;
+	display: block;
+}
+
+#nav ul li a small{display: none;}
+
+#nav .current_page_item a, #nav .current_page_item a:hover, #nav li a:hover, #nav li a:active, 	#nav .current_page_ancestor a, #nav .current_page_ancestor a:hover{
+	margin-left: -1px;margin-right: 1px;
+	text-shadow: #000 0 -1px 0px;
+	padding: 9px 16px 9px 16px;
+}
+
+#nav .current_page_item a, #nav .current_page_item a:hover, #nav .current_page_ancestor a, #nav .current_page_ancestor a:hover{
+	text-decoration: none;	
+	background: #2a2a2a url('img/nav-sprite-default.png') repeat-x 0 -72px;
+	color: #fff;
+}
+
+#nav li a:hover{
+	color: #fff;
+	background: #b1b1b1 url('img/nav-sprite-default.png') repeat-x 0 0px;
+	-moz-border-radius: 5px;
+}
+
+#nav li a:active{
+	color: #fff;
+	background: #2a2a2a url('img/nav-sprite-default.png') repeat-x 0 -36px;
+}
+
+/* Drop Down*/
+#nav li{position:relative;}
+
+#nav ul ul {display: none;}

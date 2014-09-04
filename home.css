@@ -1,0 +1,73 @@
+/* intro-box */
+#intro-holder{
+	padding:2px 0 10px;
+	position:relative;
+	height:200px;
+}
+#intro-holder .loader{
+	margin-left:91px;
+}
+.intro-box{
+	width:556px;
+	margin:0 auto;
+	height:200px;
+	position:relative;
+}
+.roundabout-holder{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:200px;
+}
+#myRoundabout{
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:100%;
+	position:absolute !important;
+	left:0;
+	top:0;
+	height:200px;
+}
+.roundabout-moveable-item {
+	cursor: pointer;
+	width: 434px;
+	height: 191px;
+}
+.roundabout-moveable-item .image{
+	width:100%;
+	height:92%;
+	position:absolute;
+	left:19px;
+	top:7px;
+	overflow:hidden;
+}
+.roundabout-moveable-item .image img{
+	margin:0 auto;
+	width:91% !important;
+}
+.roundabout-in-focus { cursor: auto; }
+.intro-box .controls{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:101;
+}
+#previous,
+#next{
+	background: url(../img/btn-prev.png) no-repeat;
+	width: 24px;
+	height: 40px;
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	top:80px;
+	left:45px;
+}
+#next{
+	background: url(../img/btn-next.png) no-repeat;
+	left:auto;
+	right:45px;
+}

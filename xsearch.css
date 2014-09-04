@@ -1,0 +1,71 @@
+/*  SEARCH BAR STYLING */
+#header_right #search_block_top {
+	position: absolute;
+	right: 30px;
+	top: 112px;
+	z-index: 5
+}
+.searchform {
+	width: 200px;
+	float: right;
+	font-size: 10px;
+	padding:0;
+	margin: 3px 5px 0 0;
+	position: relative;
+}
+.center .searchform {
+	float:none;
+}
+#morefoot .searchform{float:left}
+.searchform .s{
+	background:transparent url('img/search-bar-trans.png') no-repeat scroll center top;
+	margin:0;
+	border: none;
+	padding:8px 0;
+	height: 14px;
+	position:absolute;
+	right:13px;
+	top:0;
+	width:163px;
+	color: #333;
+	overflow: hidden;
+}
+
+.searchform .s:focus { outline: 0; border: none;}
+
+.searchform .left{
+	background:transparent url('img/search-leftcap-trans.png') no-repeat scroll left top;
+	display:block;
+	height:30px;
+	left:0;
+	position:absolute;
+	top:0;
+	width:35px;
+}
+.searchform .right{
+	background:transparent url('img/search-rightcap-trans.png') no-repeat scroll right top;
+	display:block;
+	height:30px;
+	position:absolute;
+	right:0;
+	top:0;
+	width:20px;
+}
+.searchform .searchsubmit { 
+	color: transparent;
+	text-shadow: none;
+	height: 24px;
+	width: 24px;
+	border: none;
+	cursor: pointer;
+	text-indent: -999em;
+	line-height: 1px;
+	margin:0;
+	background: transparent;
+}
+
+
+/* block left column "Quick search" */
+#search_block_left input { margin: 2px 0 0 0 }
+#search_block_left .search_query { width: 11em }
+#search_button { display: inline }
